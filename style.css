@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url("bg-intro-desktop.png");
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+
+}
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-text {
+ padding: 2em;
+ color: white ;
+}
+
+.main-text h1 {
+    padding-bottom: 10px; 
+    color: white;
+}
+@media screen and (max-width: 1440px) {
+    .main {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    margin: auto; 
+}
+}
+@media screen and (min-width: 375px) {
+    .main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: auto; 
+}  
+}
+
+.top {
+    background-color: hsl(248, 32%, 49%) ;
+    width: 200%;
+    padding: 0;
+    color: white;
+    font-size: small;
+    text-align: center;
+    margin: 8px 0;
+    height: 2em;
+    line-height: 2;
+    border-radius: 5px;
+    
+}
+mark {
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    font-weight: bold;
+    
+}
+.forms {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200%;
+    
+}
+input {
+    padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+input[type=text] {
+    width: 100% ; 
+    padding: 12px ;
+    
+   
+    
+}
+input[type=text]:focus {
+    border: 1px solid #555;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px ;
+    
+}
+input[type=password]:focus {
+    border: 1px solid #555;
+}
+input[type=button] {
+    background-color: hsl(154, 59%, 51%);
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 12px ;
+    
+}
+.bottom {
+    color: rgb(223, 211, 211);
+    text-align: center;
+}
+.terms {
+    background-color: white;
+    color: red;
+}
+
+
+
+
